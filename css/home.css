@@ -1,0 +1,97 @@
+.mincho {
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+.mincho-thin {
+  font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+h5 {
+  color: #282878;
+}
+h5 span {
+  margin-left: 4px;
+  vertical-align: middle;
+}
+.navbar-brand {
+  padding: 0;
+  padding-bottom: 4px;
+  vertical-align: middle;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-left: -2px;
+}
+.navbar-brand span {
+  font-size: 16px;
+}
+.pc_slider {
+  display: block;
+}
+.sp_slider {
+  display: none;
+}
+.concept-wrapper {
+  line-height: 1.6;
+}
+.concept-header {
+  color: #282878;
+  font-size: 15px;
+}
+.concept-body {
+  font-size: 14px;
+}
+.card-header {
+  font-size: 15px;
+}
+.card-header img {
+  margin-left: -8px;
+}
+.card-body {
+  font-size: 14px;
+}
+.store_information {
+  font-size: 14px;
+  position: relative;
+}
+.store_information span {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.7em;
+}
+.bg-jiku {
+  background-color: #282878;
+}
+.swiper-container {
+  background: #EEE;
+  width: 100%;
+  height: 100%;
+}
+.swiper-container img{
+  width: 100%;
+  height: auto;
+}
+.swiper-button-next, .swiper-button-prev {
+  height: 35px;
+}
+footer {
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 2px 0;
+  }
+  .pc_slider {
+    display: none;
+  }
+  .sp_slider {
+    display: block;
+  }
+  .store_information {
+    position: relative;
+    margin-top: 0.5em;
+  }
+  .store_information span {
+    position: relative;
+    top: 0;
+  }
+}
